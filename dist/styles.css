@@ -9,3 +9,5 @@
 .diagram-labels{display:flex;justify-content:space-between;gap:6px;color:var(--ink);font:12px/1.4 var(--sans);margin-bottom:3px}
 @media(min-width:1001px){.intro{padding-top:32px;padding-bottom:19px}.projects{padding-top:16px}.projects>h2{font-size:22px;line-height:1.2}.project{padding:14px 0;gap:30px}.project img{height:108px;aspect-ratio:auto}.project figcaption{margin-top:6px}.project h4{margin-bottom:6px}.project-copy .methods{margin-top:8px}.project-copy .patent{margin-top:8px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}nav>a::after{transition:none}}
+.project--summary .project-copy{grid-column:2 / -1;grid-row:auto}
+@media(max-width:760px){.project--summary .project-copy{grid-column:auto;grid-row:auto}}
